@@ -14,6 +14,7 @@ function App() {
   let title = "Dashboard";
   let noti =
     "📢  It's 3 days before the registration for the 1st semester of 2022.";
+  let Journal = "SampleText";
 
   return (
     <div className="App">
@@ -65,6 +66,11 @@ function App() {
             <img src={btn_settings}></img>
           </button>
         </p>
+      </div>
+
+      <div className="Journal-list">
+        <h3> {Journal} </h3>
+        <p>2022.03.01</p>
       </div>
 
       <header className="App-header"></header>
