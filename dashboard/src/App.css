@@ -2,6 +2,140 @@
   text-align: center;
 }
 
+/*title bar design*/
+
+body {
+  font-family: "gotham";
+}
+.Title-bar {
+  background-color: #f5f5f5;
+  display: flex;
+  color: #4f4f4f;
+  padding: 25px;
+  padding-left: 60px;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: -2px;
+}
+
+.Noti-bar {
+  background-color: #f5f5f5;
+  display: block;
+  flex-grow: 1;
+  color: #4f4f4f;
+  padding: 5px;
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  text-align: right;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/*button design*/
+
+.Nav-bar {
+  background-color: #f5f5f5;
+  display: block;
+  float: left;
+}
+
+.btn-dashboard {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-archive {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-journal {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-calendar {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-network {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-search {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-report {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-settings {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/*app setting*/
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +148,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f5f5f5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {

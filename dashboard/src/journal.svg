@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="speech_bubble" data-name="speech bubble" class="cls-1" d="M332,363a1,1,0,0,1,1,1v11a1,1,0,0,1-1,1h-8.641L319,379.114V376h-3a1,1,0,0,1-1-1V364a1,1,0,0,1,1-1h16m0-2H316a3,3,0,0,0-3,3v11a3,3,0,0,0,3,3h1v5l7-5h8a3,3,0,0,0,3-3V364a3,3,0,0,0-3-3h0Z" transform="translate(-313 -361)"/>
+</svg>
