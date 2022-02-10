@@ -1,0 +1,38 @@
+    #alpha 0.2.0
+
+        *main dashboard page 에 now card 추가.
+      :현 시각에 기반해 해당되는 수업 혹은 일정을 표시함.
+      좌측 time table에서 일정을 클릭할 경우와 달리, now card 에서 일정을 클릭할 경우 출석 혹은 참여를 기록할 수 있고
+      사용자가 원할 경우 lecture note 혹은 meeting note를 작성할 수 있음.
+      (작성된 lecture note 혹은 meeting note는 좌측 2번 Archive menu에서 수업종류별, 기록종류별 filter를 통해 복기할 수 있음.)
+
+        *comment card에 checkbox 추가.
+      :사용자가 준비된 checkbox를 클릭하는 경우, 기록된 comment에 취소선이 표시됨.
+      comment에 해당하는 text를 클릭하는 경우, 해당 comment에 기록이 필요한 상황이라고 판단하고 새로운 meeting note를 생성함.
+      comment card의 title을 클릭할 경우, 과거 주차에 기록된 comment를 불러올 수 있음.
+
+        *menu에 Journal 추가.
+      :lecture note 혹은 meeting note가 아닌 개인 기록이 필요할 경우, 이는 공적인 기록과는 구분하여 Journal로 관리됨.
+      기존 lecture note 혹은 meeting note와 마찬가지로 텍스트, 이미지 혹은 링크 임베드 또는 파일 업로드를 지원하며
+      구분에 사용되는 tag만 Journal로 기록됨.
+      DB에서 Journal tag로 기록된 note를 분류하여 좌측 5번 Journal menu에서 확인이 가능하도록 구성함.
+
+        *Network menu의 관계형 추가.
+      Network DB에 등록된 인물을 링크하여 시간표 혹은 comment 등의 문서에서 관계형으로 표기할 수 있음.
+      예시로 now card에 표시되는 해당 수업에 대한 교수 정보는 Network DB의 교수 관계형으로 링크하여 표시함.
+      상세정보 등의 2nd page에서 관계형에 해당하는 text를 클릭할 경우 Network menu로 jump 하여 해당 인물에 대한 기록 혹은 정보 수정을 가능하게 함.
+
+
+      - comment에 추가된 기록은 작성한날로부터 7일간 dashboard에 보여진다.
+
+      - commend line 기능 추가를 고려해본다.
+
+
+
+
+    #alpha 0.2.1
+        *Contribuiton + Calendar 기능 menu 추가.
+
+        *확장된 timetable 사용 menu - settings에 추가.
+      :사용자가 필요에 따라 '확장된 timetable 사용' 기능을 활성화 할 수 있음. 이는 기본 상태보다 더 적은 정보를 표시할 수 있음을 고지해야함.
+      ex) - 확장된 timetable 사용. [] (이 기능을 사용하면 dashboard의 timetable에 필요한 정보가 더 적게 표기될 수 있으나 lecture card를 클릭하여 상세 정보를 불러올 수 있습니다.)
