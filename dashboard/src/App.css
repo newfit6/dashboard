@@ -151,6 +151,8 @@ button {
 */
 
 .Journal-list {
+  background-color: #f2f2f2;
+  color: #4f4f4f;
   display: block;
   float: left;
   margin-top: 30px;
@@ -159,6 +161,7 @@ button {
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 5px;
 }
 
 /*app setting*/
