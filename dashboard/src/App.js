@@ -77,8 +77,7 @@ function App() {
 
       <div className="Journal-list">
         <h3> {Journal} </h3>
-        <p>2022.03.02</p>
-        <hr />
+        <h3> #Tyler, James, John </h3>
       </div>
       <header className="App-header"></header>
     </div>
