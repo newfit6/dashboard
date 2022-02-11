@@ -77,7 +77,7 @@ function App() {
 
       <div className="Journal-list">
         <h3> {Journal} </h3>
-        <h3> #Tyler, James, John </h3>
+        <h3 className="Journal-tag"> #Tyler </h3>
       </div>
       <header className="App-header"></header>
     </div>

@@ -164,6 +164,14 @@ button {
   border-radius: 5px;
 }
 
+.Journal-tag {
+  text-align: right;
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #61dafb;
+}
+
 /*app setting*/
 
 .App-logo {
