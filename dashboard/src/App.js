@@ -90,7 +90,9 @@ function App() {
 
       {/* App-header*/}
       
-      <header className="App-header"></header>
+      <header className="App-header">
+      <style> @import url('http://fonts.cdnfonts.com/css/gotham'); </style>
+      </header>
     </div>
   );
 }
