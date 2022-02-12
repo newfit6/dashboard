@@ -17,72 +17,74 @@ function App() {
     "📢  It's 3 days before the registration for the 1st semester of 2022.";
   let Journal = "SampleTag";
 
-  return (
-    <div className="App">
-      {/* Title-bar with Noti-bar */}
+  {/*let from server*/}
 
-      <div className="Title-bar">
-        <div> {title} </div>
-        <div className="Noti-bar">
-          <div> {noti} </div>
-        </div>
+  return (
+    <div className="container-main">
+
+      {/* Title-bar with Noti-bar, grid container*/}
+
+      <div className="container-main__item-header">
+        <div className="container-main__item-header--title"> {title} </div>
+        <div className="container-main__item-header--noti"> {noti} </div>
       </div>
 
       {/* Nav-bar */}
 
-      <div className="Nav-bar">
+      <div className="container-main__item-nav">
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-dashboard">
+          <button type="button" className="container-main__item-nav--menu-top">
             <img src={btn_dashboard} alt="profile"></img>
           </button>
         </p>
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-archive">
+          <button type="button" className="container-main__item-nav--menu-top">
             <img src={btn_archive} alt="profile"></img>
           </button>
         </p>
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-journal">
+          <button type="button" className="container-main__item-nav--menu-top">
             <img src={btn_journal} alt="profile"></img>
           </button>
         </p>
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-calendar">
+          <button type="button" className="container-main__item-nav--menu-top">
             <img src={btn_calendar} alt="profile"></img>
           </button>
         </p>
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-network">
+          <button type="button" className="container-main__item-nav--menu-top">
             <img src={btn_network} alt="profile"></img>
           </button>
         </p>
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-search">
+          <button type="button" className="container-main__item-nav--menu-top">
             <img src={btn_search} alt="profile"></img>
           </button>
         </p>
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-report">
+          <button type="button" className="container-main__item-nav--menu-bottom">
             <img src={btn_report} alt="profile"></img>
           </button>
         </p>
+
         <p style={{ margin: 0 }}>
-          <button type="button" className="btn-settings">
+          <button type="button" className="container-main__item-nav--menu-bottom">
             <img src={btn_settings} alt="profile"></img>
           </button>
         </p>
+
       </div>
 
       {/* Journal-list */}
 
-      <div className="Journal-list" >
-        <div className="Journal-tag"> {Journal} </div>
-        <div className="Journal-title"> S1-W1 : Journal List Sample Title </div>
-      </div>
-      <div className="Journal-list" >
-        <div className="Journal-tag"> {Journal} </div>
-        <div className="Journal-title"> S1-W1 : Journal List Sample Title </div>
-      </div>
       <div className="Journal-list" >
         <div className="Journal-tag"> {Journal} </div>
         <div className="Journal-title"> S1-W1 : Journal List Sample Title </div>

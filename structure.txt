@@ -1,0 +1,22 @@
+
+container-main
+
+    container-main__item-header
+        container-main__item-header--title
+        container-main__item-header--noti
+
+    container-main__item-nav
+        container-main__item-nav--menu-top
+            btn-dashboard
+            btn-archive
+            ...
+        container-main__item-nav--menu-bottom
+
+    container-main__item-dashboard
+        container-main__item-dashboard--dashboard
+        container-main__item-dashboard--archive
+        ...
+
+    container-main__item-footer
+        container-main__item-footer--copyright
+        
