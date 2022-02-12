@@ -31,7 +31,7 @@ function App() {
 
       {/* Nav-bar */}
 
-      <div className="container-main__item-nav">
+      <div className="container-main__item-nav__top">
 
         <p style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav--menu-top">
@@ -69,6 +69,10 @@ function App() {
           </button>
         </p>
 
+      </div>
+
+      <div className="container-main__item-nav__bottom">
+        
         <p style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav--menu-bottom">
             <img src={btn_report} alt="profile"></img>
@@ -83,12 +87,16 @@ function App() {
 
       </div>
 
+      <div className="container-main__item-dashboard-journal">
+        <div className="container-main__item-dashboard-journal__list" >
+          <div className="container-main__item-dashboard-journal__list--tag"> {Journal} </div>
+          <div className="container-main__item-dashboard-journal__list--title"> S1-W1 : Journal List Sample Title </div>
+        </div>
+      </div>
+
       {/* Journal-list */}
 
-      <div className="Journal-list" >
-        <div className="Journal-tag"> {Journal} </div>
-        <div className="Journal-title"> S1-W1 : Journal List Sample Title </div>
-      </div>
+      
 
       {/* App-header*/}
       
