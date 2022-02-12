@@ -15,7 +15,7 @@ function App() {
   let title = "Dashboard";
   let noti =
     "📢  It's 3 days before the registration for the 1st semester of 2022.";
-  let Journal = "SampleText";
+  let Journal = "SampleTag";
 
   return (
     <div className="App">
@@ -75,11 +75,30 @@ function App() {
 
       {/* Journal-list */}
 
+<<<<<<< HEAD
       <div className="Journal-list">
         <h3> {Journal} </h3>
         <h3 className="Journal-tag"> #Tyler </h3>
+=======
+      <div className="Journal-list" >
+        <div className="Journal-tag"> {Journal} </div>
+        <div className="Journal-title"> S1-W1 : Journal List Sample Title </div>
+>>>>>>> 46c66d4813b302e9e0a2147e4d78901217dce52c
       </div>
-      <header className="App-header"></header>
+      <div className="Journal-list" >
+        <div className="Journal-tag"> {Journal} </div>
+        <div className="Journal-title"> S1-W1 : Journal List Sample Title </div>
+      </div>
+      <div className="Journal-list" >
+        <div className="Journal-tag"> {Journal} </div>
+        <div className="Journal-title"> S1-W1 : Journal List Sample Title </div>
+      </div>
+
+      {/* App-header*/}
+      
+      <header className="App-header">
+      <style> @import url('http://fonts.cdnfonts.com/css/gotham'); </style>
+      </header>
     </div>
   );
 }
