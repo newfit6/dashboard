@@ -78,26 +78,6 @@ body {
   align-items: center;
 }
 
-.contatiner-main__item-nav__top {
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  /*grid settings*/
-  background-color: #f5f5f5;
-}
-
-.container-main__item-nav__bottom {
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  /*grid settings*/
-  background-color: #f5f5f5;
-}
-
 /*button design*/
 
 button {
@@ -197,9 +177,29 @@ button {
 }
 */
 
-.container-main__item-nav--menu-top {
+.container-main__item-nav__top {
   display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  /*grid settings*/
+  background-color: #f5f5f5;
+}
 
+.container-main__item-nav__bottom {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  /*grid settings*/
+  background-color: #f5f5f5;
+  align-content: flex-end;
+}
+
+.container-main__item-nav__top--menu {
+  display: block;
   background-color: #ffffff;
   width: 50px;
   height: 50px;
@@ -210,9 +210,8 @@ button {
   align-items: center;
 }
 
-.container-main__item-nav--menu-bottom {
-  display: grid;
-
+.container-main__item-nav__bottom--menu {
+  display: block;
   background-color: #ffffff;
   width: 50px;
   height: 50px;
@@ -220,7 +219,6 @@ button {
   margin-top: 10px;
   border: none;
   border-radius: 5px;
-  align-items: center;
 }
 
 .container-main__item-dashboard {
@@ -270,18 +268,7 @@ button {
   align-items: center;
 }
 
-<<<<<<< HEAD
-.Journal-tag {
-<<<<<<< HEAD
-  text-align: right;
-  margin-right: 30px;
-  font-weight: 400;
-  font-size: 15px;
-  color: #61dafb;
-=======
-=======
 .container-main__item-dashboard-journal__list--tag {
->>>>>>> 96757337a7722b35ed4a5eaf236c887d386a0eb2
   color: #4f4f4f;
   font-size: 20px;
   font-weight: 400;
@@ -298,7 +285,6 @@ button {
   padding-left: 10px;
   margin-left: 30px;
   text-align: left;
->>>>>>> 46c66d4813b302e9e0a2147e4d78901217dce52c
 }
 
 /*app setting*/
