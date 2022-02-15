@@ -221,6 +221,24 @@ button {
   border-radius: 5px;
 }
 
+.item-nav__btn--active {
+  filter: invert(27%) sepia(93%) saturate(0%) hue-rotate(219deg) brightness(98%)
+    contrast(102%);
+}
+
+/* invert(27%) sepia(93%) saturate(0%) hue-rotate(219deg) brightness(98%)
+    contrast(102%)
+= #4F4F4F */
+
+.item-nav__btn--inactive {
+  filter: invert(50%) sepia(3%) saturate(16%) hue-rotate(22deg) brightness(101%)
+    contrast(88%);
+}
+
+/* filter: invert(50%) sepia(3%) saturate(16%) hue-rotate(22deg) brightness(101%)
+    contrast(88%)
+= #828282 */
+
 .container-main__item-dashboard {
   display: grid;
   grid-column-start: 2;

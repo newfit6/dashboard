@@ -55,37 +55,61 @@ function App() {
       <div className="container-main__item-nav__top">
         <div style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav__top--menu">
-            <img src={btn_dashboard} alt="profile"></img>
+            <img
+              className="item-nav__btn--inactive"
+              src={btn_dashboard}
+              alt="profile"
+            ></img>
           </button>
         </div>
 
         <div style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav__top--menu">
-            <img src={btn_archive} alt="profile"></img>
+            <img
+              className="item-nav__btn--inactive"
+              src={btn_archive}
+              alt="profile"
+            ></img>
           </button>
         </div>
 
         <div style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav__top--menu">
-            <img src={btn_journal} alt="profile"></img>
+            <img
+              className="item-nav__btn--active"
+              src={btn_journal}
+              alt="profile"
+            ></img>
           </button>
         </div>
 
         <div style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav__top--menu">
-            <img src={btn_calendar} alt="profile"></img>
+            <img
+              className="item-nav__btn--inactive"
+              src={btn_calendar}
+              alt="profile"
+            ></img>
           </button>
         </div>
 
         <div style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav__top--menu">
-            <img src={btn_network} alt="profile"></img>
+            <img
+              className="item-nav__btn--inactive"
+              src={btn_network}
+              alt="profile"
+            ></img>
           </button>
         </div>
 
         <div style={{ margin: 0 }}>
           <button type="button" className="container-main__item-nav__top--menu">
-            <img src={btn_search} alt="profile"></img>
+            <img
+              className="item-nav__btn--inactive"
+              src={btn_search}
+              alt="profile"
+            ></img>
           </button>
         </div>
       </div>
@@ -96,7 +120,11 @@ function App() {
             type="button"
             className="container-main__item-nav__bottom--menu"
           >
-            <img src={btn_report} alt="profile"></img>
+            <img
+              className="item-nav__btn--inactive"
+              src={btn_report}
+              alt="profile"
+            ></img>
           </button>
         </div>
         <div style={{ margin: 0 }}>
@@ -104,7 +132,11 @@ function App() {
             type="button"
             className="container-main__item-nav__bottom--menu"
           >
-            <img src={btn_settings} alt="profile"></img>
+            <img
+              className="item-nav__btn--inactive"
+              src={btn_settings}
+              alt="profile"
+            ></img>
           </button>
         </div>
       </div>
@@ -145,6 +177,16 @@ function App() {
           <div className="container-main__item-dashboard-journal__list--title">
             {Journal_Title[1]}
           </div>
+          <div
+            className="container-main__item-dashboard-journal__list--like-box"
+            onClick={function_like}
+          >
+            <img
+              className="container-main__item-dashboard-journal__list--like-box--like"
+              src={btn_like}
+              alt="profile"
+            ></img>
+          </div>
         </div>
         {/*journal list 1 end*/}
 
@@ -155,6 +197,16 @@ function App() {
           </div>
           <div className="container-main__item-dashboard-journal__list--title">
             {Journal_Title[2]}
+          </div>
+          <div
+            className="container-main__item-dashboard-journal__list--like-box"
+            onClick={function_like}
+          >
+            <img
+              className="container-main__item-dashboard-journal__list--like-box--like"
+              src={btn_like}
+              alt="profile"
+            ></img>
           </div>
         </div>
         {/*journal list 2 end*/}
